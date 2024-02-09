@@ -1,5 +1,5 @@
 <h1 align="center">
-  <br> [Deep Generative Models for Health Workshop at the Neurips 2023] Synthetic-Sleep-EEG-Signal-Generation-using-Latent-Diffusion-Models  <br>
+  <br> [DGM4H Workshop@Neurips 2023] Synthetic Sleep EEG Signal Generation using Latent Diffusion-Models  <br>
 </h1>
 
 
