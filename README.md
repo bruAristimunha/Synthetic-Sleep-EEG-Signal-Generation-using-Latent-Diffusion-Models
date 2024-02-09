@@ -1,10 +1,9 @@
-![img.png](fig/img.png)<h1 align="center">
+<h1 align="center">
   <br> [Deep Generative Models for Health Workshop at the Neurips 2023] Synthetic-Sleep-EEG-Signal-Generation-using-Latent-Diffusion-Models  <br>
 </h1>
 
 
-![pipeline](https://github.com/bruAristimunha/Synthetic-Sleep-EEG-Signal-Generation-using-Latent-Diffusion-Models/raw/master/fig/img.png)
-
+![img.png](fig/img.png)
 
 ## This repository is the official implementation of the article presented at the event. [[Paper]](https://github.com/bruAristimunha/estamira-coerencia-discursos/blob/master/reports/ERAMIA_SP_2020.pdf) [[Citation]](#Ccitation) 
 
