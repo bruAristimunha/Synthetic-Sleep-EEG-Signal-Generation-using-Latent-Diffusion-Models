@@ -1,0 +1,5 @@
+train:
+    seed: 1996
+    experiment: 'base_decoder'
+    output_dir: '/outputs'
+    run_dir: 'sleep_stage_chambon'

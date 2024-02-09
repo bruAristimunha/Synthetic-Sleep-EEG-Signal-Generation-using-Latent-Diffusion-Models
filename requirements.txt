@@ -1,0 +1,14 @@
+matplotlib
+omegaconf==2.1.1
+pandas
+scikit-learn
+scipy
+tensorboardX
+tqdm
+scikit-image
+pynvml
+mlflow
+git+https://github.com/braindecode/braindecode.git#egg=braindecode
+monai-generative
+tensorboard
+

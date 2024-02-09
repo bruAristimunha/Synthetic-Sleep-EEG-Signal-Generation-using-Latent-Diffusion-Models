@@ -1,0 +1,43 @@
+train:
+    seed: 2
+    batch_size: 512
+    n_epochs: 2000
+    eval_freq: 50
+    num_workers: 25
+    experiment: 'DDPM'
+    output_dir: '/project/outputs_dm'
+    data_root: '/data/sleep-edfx/'
+    run_dir: 'dm_eeg'
+    drop_last: false
+    base_lr: 0.0001
+    save_every: 50
+
+model:
+  params:
+    timesteps: 1000
+    beta_schedule: "linear"
+    linear_start: 0.0015
+    linear_end: 0.0195
+    loss_type: "l2"
+    log_every_t: 200
+    clip_denoised: False
+    original_elbo_weight: 0.0
+    v_posterior: 0.0
+    l_simple_weight: 1.0
+    parameterization: "eps"
+    learn_logvar: False
+    logvar_init: 0.0
+    unet_config:
+      params:
+        image_size: 768
+        in_channels: 3
+        out_channels: 1
+        model_channels: 128
+        attention_resolutions: [8,4]
+        num_res_blocks: 2
+        channel_mult: [1,2,4]
+        dropout: 0.0
+        conv_resample: True
+        num_heads: 1
+        use_scale_shift_norm: False
+        resblock_updown: True
