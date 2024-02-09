@@ -161,25 +161,25 @@ def main(args):
     # attention_levels: [false, false, false]
     # with_encoder_nonlocal_attn: false
     # with_decoder_nonlocal_attn: false
-
-    diffusion = DiffusionModelUNet(
-        spatial_dims=1,
-        in_channels=1,
-        out_channels=1,
-        num_res_blocks=[8,4],
-        num_channels=[1,2],
-        attention_levels=(False, False),
-        norm_num_groups=1,
-        norm_eps=1e-6,
-        resblock_updown=False,
-        num_head_channels=1,
-        with_conditioning=False,
-        transformer_num_layers=1,
-        cross_attention_dim=None,
-        num_class_embeds=None,
-        upcast_attention=False,
-        use_flash_attention=False,
-    )
+    #
+    # diffusion = DiffusionModelUNet(
+    #     spatial_dims=1,
+    #     in_channels=1,
+    #     out_channels=1,
+    #     num_res_blocks=[8,4],
+    #     num_channels=[1,2],
+    #     attention_levels=(False, False),
+    #     norm_num_groups=1,
+    #     norm_eps=1e-6,
+    #     resblock_updown=False,
+    #     num_head_channels=1,
+    #     with_conditioning=False,
+    #     transformer_num_layers=1,
+    #     cross_attention_dim=None,
+    #     num_class_embeds=None,
+    #     upcast_attention=False,
+    #     use_flash_attention=False,
+    # )
     #print(diffusion)
     parameters = config['model']['params']['unet_config']['params']
     parameters['in_channels'] = args.latent_channels

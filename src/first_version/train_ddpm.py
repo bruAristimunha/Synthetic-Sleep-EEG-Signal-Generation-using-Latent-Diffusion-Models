@@ -12,7 +12,7 @@ from torch.cuda.amp import GradScaler, autocast
 from tqdm import tqdm
 
 from models.ldm import DDPM
-from train_encoder import get_lr, parse_args, test_dataloader, train_dataloader
+from src.first_version.train_encoder import get_lr, parse_args, test_dataloader, train_dataloader
 from util import log_ldm_sample, log_mlflow
 
 
